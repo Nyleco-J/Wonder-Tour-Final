@@ -1,0 +1,58 @@
+.footer{
+    text-align: center;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    background-color: #162E44 ;
+    color: $clr-light;
+    .contact{
+        padding: 3rem;
+        h2{
+            font-size: 2rem;
+        }
+        ul{
+            max-width: 20rem;
+            margin: 0 auto;
+            text-align: left;
+            
+            li{
+                margin-top: 2rem;
+                    i{
+                        color: $clr-light-bb; 
+                        margin-right: 2rem; 
+                    }
+                    span{
+                        color: $clr-light;
+                        cursor: pointer;
+                        &:hover{
+                            color: $clr-light-bb;
+                        }
+                    }
+            }
+        }
+    }
+    .popular-news{
+        .news__content{
+            padding: 1.5rem;
+        }
+        h2{
+            font-size: 2rem;
+            padding-bottom: 2rem;
+        }
+        h3{
+            font-size: 1.3rem;
+            max-width: 20rem;
+            margin: 0 auto;
+            text-align: justify;
+            color: $clr-light-bb;
+            cursor: pointer;
+            &:hover{
+                color: #0C8670;
+            }
+        }
+        p{
+            text-align: center;
+            margin-right: 12rem;
+            color: gray;
+            font-size: 1.3rem;
+        }
+    }
+}

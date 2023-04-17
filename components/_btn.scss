@@ -1,0 +1,15 @@
+.btn{
+    background-color: transparent;
+    padding: .6rem 1.8rem;
+    border: 2px solid $clr-light;
+    display: inline-block;
+    transition: 300ms;
+    color: $clr-light;
+
+}
+.outline-darken{
+    border: 2px solid $clr-dark-primary;
+    color: $clr-dark-primary;
+    padding: 1.5rem 3.5rem;
+    font-weight: 600;
+}
